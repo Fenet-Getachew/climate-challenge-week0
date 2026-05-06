@@ -15,3 +15,16 @@ To reproduce the environment for this project, follow these steps:
 
 4. **Install dependencies:**
    pip install -r requirements.txt
+
+
+
+## Climate Dashboard (Streamlit)
+A tool to visualize climate extremes and variability for 5 African nations.
+### Usage:
+1. Ensure your cleaned data is in `data/`.
+2. Run `pip install streamlit plotly pandas`.
+3. Launch via: `streamlit run app/main.py`.
+
+### KPIs Met:
+- **Interactive:** Year sliders and multi-country filters.
+- **Dynamic:** Auto-calculates summary stats based on UI selection.
